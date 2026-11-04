@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1 - Forms</title>
+    <link rel="stylesheet" href="pagina1.css">
+</head>
+<body>
+
+    <h1>Exercício 1 - HTML Forms (W3Schools)</h1>
+
+    <div class="form-container">
+        <h2>Formulário de Cadastro</h2>
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+
+                <label for="nascimento">Data de Nascimento:</label>
+                <input type="date" id="nascimento" name="nascimento">
+            </fieldset>
+
+            <fieldset>
+                <legend>Gênero</legend>
+                <input type="radio" id="masculino" name="genero" value="M">
+                <label for="masculino">Masculino</label><br>
+                <input type="radio" id="feminino" name="genero" value="F">
+                <label for="feminino">Feminino</label><br>
+                <input type="radio" id="outro" name="genero" value="O">
+                <label for="outro">Outro</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Interesses</legend>
+                <input type="checkbox" id="html" name="interesse" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="checkbox" id="css" name="interesse" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="checkbox" id="js" name="interesse" value="JavaScript">
+                <label for="js">JavaScript</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Comentários</legend>
+                <label for="comentario">Deixe um recado:</label>
+                <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea>
+            </fieldset>
+
+            <input type="submit" value="Enviar Formulário">
+            <button type="reset">Limpar</button>
+
+        </form>
+    </div>
+
+    <p><a href="index.html">← Voltar para a página principal</a></p>
+
+</body>
+</html>

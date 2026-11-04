@@ -1,0 +1,40 @@
+/* ID: seletor # (apenas um elemento na página) */
+#cabecalho {
+    background-color: #4CAF50; /* verde */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#destaque {
+    background-color: #2196F3; /* azul */
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* CLASS: seletor . (vários elementos podem usar) */
+.cartao {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: #f9f9f9;
+}
+
+.cartao img {
+    display: block;
+    margin-top: 10px;
+}
+
+.nota {
+    color: #c00; /* vermelho */
+    font-style: italic;
+}
+
+.rodape {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    padding: 10px;
+}

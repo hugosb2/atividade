@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2 - Tables, Lists, Layouts, Block e Inline</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Exemplo com ID (seletor #) -->
+    <header id="cabecalho">
+        <h1>Atividade 2 - Testes W3Schools</h1>
+        <p>Código da Atv01 + Tables, Lists, Layouts, Block e Inline</p>
+    </header>
+
+    <hr>
+
+    <!-- ==================== CONTEÚDO DA ATIVIDADE 1 ==================== -->
+    <section class="cartao">
+        <h2>Imagem com tag IMG (local)</h2>
+        <p>Esta é uma imagem usando a tag &lt;img&gt; com caminho local:</p>
+        <img src="imagens/image.png" alt="Campus Itapetinga - Atv01" width="304" height="194">
+    </section>
+
+    <section class="cartao">
+        <h2>Comparando classes e IDs</h2>
+        <p class="nota">Uma <strong>classe</strong> pode ser usada em vários elementos (todos os elementos com class="nota" ficam vermelhos).</p>
+        <p class="nota">Outro texto com a mesma classe.</p>
+        <p id="destaque">Um <strong>ID</strong> deve ser único na página — só este elemento fica azul.</p>
+    </section>
+
+    <section class="cartao">
+        <h2>Imagem local com tamanho diferente</h2>
+        <img src="imagens/image.png" alt="Campus Itapetinga - Atv01" width="100" height="100">
+    </section>
+
+    <hr>
+
+    <!-- ==================== NOVO CONTEÚDO DA ATIVIDADE 2 ==================== -->
+
+    <!-- TABLES -->
+    <section class="cartao">
+        <h2>Tables</h2>
+        <table class="tabela">
+            <caption>Tabela de Alunos</caption>
+            <tr>
+                <th>Nome</th>
+                <th>Série</th>
+                <th>Nota</th>
+            </tr>
+            <tr>
+                <td>Ana Silva</td>
+                <td>2º ano</td>
+                <td>8.5</td>
+            </tr>
+            <tr>
+                <td>Carlos Souza</td>
+                <td>3º ano</td>
+                <td>7.0</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- LISTS -->
+    <section class="cartao">
+        <h2>Lists</h2>
+        <h3>Lista ordenada (ol):</h3>
+        <ol class="lista">
+            <li>Primeiro item</li>
+            <li>Segundo item</li>
+            <li>Terceiro item</li>
+        </ol>
+        <h3>Lista não ordenada (ul):</h3>
+        <ul class="lista">
+            <li>Item A</li>
+            <li>Item B</li>
+            <li>Item C</li>
+        </ul>
+    </section>
+
+    <!-- BLOCK vs INLINE -->
+    <section class="cartao">
+        <h2>Block vs Inline</h2>
+        <div class="bloco">Elemento DIV - block: ocupa toda a largura disponível</div>
+        <div class="bloco">Outro DIV - block: começa em nova linha</div>
+        <p>Dentro de um parágrafo, <span class="inline">SPAN é inline</span>, <em>EM é inline</em> e <strong>STRONG é inline</strong> — ficam na mesma linha.</p>
+    </section>
+
+    <!-- CLASSES COM ID -->
+    <section class="cartao">
+        <h2>Classes combinadas com ID</h2>
+        <p class="nota destaque-especial" id="paragrafo-especial">Este parágrafo tem classe "nota" + "destaque-especial" e ID "paragrafo-especial".</p>
+        <p class="nota">Este tem só a classe "nota".</p>
+    </section>
+
+    <!-- INCLUDE (simulação com comentário) -->
+    <section class="cartao">
+        <h2>Include (conceito)</h2>
+        <p>No HTML puro, "include" não existe nativamente como no PHP ou SSI. O W3Schools mostra como usar <code>&lt;iframe&gt;</code> para incluir conteúdo externo ou server-side includes.</p>
+        <p>Aqui usamos CSS e HTML separados, simulando modularidade.</p>
+    </section>
+
+    <!-- LAYOUTS -->
+    <section class="layout-container">
+        <div class="layout-header">Header do layout</div>
+        <div class="layout-sidebar">Sidebar</div>
+        <div class="layout-main">Conteúdo principal do layout</div>
+        <div class="layout-footer">Footer do layout</div>
+    </section>
+
+    <hr>
+
+    <footer class="rodape">
+        <p>Atividade 2 - Inclui códigos da Atv01 + Tables, Lists, Layouts, Block/Inline, Classes+ID</p>
+    </footer>
+
+</body>
+</html>
